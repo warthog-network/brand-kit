@@ -39,23 +39,21 @@ For Discord we use `logo/DISCORD.png` as banner server.
 The full family is shipped in `fonts/Montserrat.zip`. Unzip before referencing weights in design files.
 
 
-## Colours
+## Colors
 
-Our colours are made primarily for **electronic displays** (presentations, web, mobile, video). The printing process may cause slight colour variations.
+Our colors are made primarily for **electronic displays** (presentations, web, mobile, video). The printing process may cause slight color variations.
 
 ### Primary palette
-
-Visual order from the 3×3 grid on page 10 of the PDF:
 
 | Hex | Role |
 |-----|------|
 | <img src="colors/FDB913.svg" width="16" height="16" style="vertical-align:middle;" alt="#FDB913"> <code>#FDB913</code> | Brand yellow — primary |
-| <img src="colors/F25C05.svg" width="16" height="16" style="vertical-align:middle;" alt="#F25C05"> <code>#F25C05</code> | Red-orange |
-| <img src="colors/000000.svg" width="16" height="16" style="vertical-align:middle;" alt="#000000"> <code>#000000</code> | Black |
 | <img src="colors/E79300.svg" width="16" height="16" style="vertical-align:middle;" alt="#E79300"> <code>#E79300</code> | Orange |
+| <img src="colors/F25C05.svg" width="16" height="16" style="vertical-align:middle;" alt="#F25C05"> <code>#F25C05</code> | Red-orange |
+| <img src="colors/F20544.svg" width="16" height="16" style="vertical-align:middle;" alt="#F20544"> <code>#F20544</code> | Red / pink |
+| <img src="colors/000000.svg" width="16" height="16" style="vertical-align:middle;" alt="#000000"> <code>#000000</code> | Black |
 | <img src="colors/FFFFFF.svg" width="16" height="16" style="vertical-align:middle;" alt="#FFFFFF"> <code>#FFFFFF</code> | White |
 | <img src="colors/E9E9E9.svg" width="16" height="16" style="vertical-align:middle;" alt="#E9E9E9"> <code>#E9E9E9</code> | Light gray — <strong>backgrounds only</strong>, not for marks |
-| <img src="colors/F20544.svg" width="16" height="16" style="vertical-align:middle;" alt="#F20544"> <code>#F20544</code> | Red / pink |
 | <img src="colors/035AA6.svg" width="16" height="16" style="vertical-align:middle;" alt="#035AA6"> <code>#035AA6</code> | Blue — supporting illustration only |
 | <img src="colors/033298.svg" width="16" height="16" style="vertical-align:middle;" alt="#033298"> <code>#033298</code> | Deep blue — supporting illustration only |
 
@@ -71,16 +69,16 @@ All gradients transition to brand yellow `#FDB913`:
 
 ## Logo Restrictions
 
-When placing the logo on a coloured or photographic surface, follow these rules:
+When placing the logo on a colored or photographic surface, follow these rules:
 
 - **Don't use noisy** backgrounds.
 - **Don't tilt the logo** — keep it horizontal.
 - **Avoid low contrast** — the logo must be readable.
-- **Never use colours out of the approved palette**.
+- **Never use colors out of the approved palette**.
 - If needed, backgrounds should be clear, monochromatic, or with a hint of texture.
 - **Use the Wireframe (B&W) option for maximum contrast** over busy textures.
 - On over-complex backgrounds, use the **square background as suggested** (the "Negative" variants already provide this).
-- If a colour background is inevitable, **use the maximum contrast** — the black "Negative" variants.
+- If a color background is inevitable, **use the maximum contrast** — the black "Negative" variants.
 
 
 
