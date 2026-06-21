@@ -5,7 +5,7 @@ Brand kit repository for Warthog Network. Asset-only — no source code, build, 
 ## Contents
 
 - `Fonts/Montserrat.zip` — official brand font (extract to use).
-- `Guideline/WT_Guidelines.pdf` — full brand guidelines (logo usage, spacing, do/don't). Read this before producing brand assets.
+- `Guideline/WT_Guidelines.pdf` — full brand guidelines (logo usage, spacing, do/don't). Read this before producing brand assets. **Note:** the page 2 hero (NFT cards, "savannah.wtn #9388", `.wtn` TLD) is a designer mockup, not a real project surface — ignore it for spec purposes.
 - `Warthog_2024.ai` — editable Adobe Illustrator source for the logo system.
 - `Warthog_2024.pdf` — flattened preview of the AI file.
 - `SVGs/` — vector logos (use these for any digital/print work).
