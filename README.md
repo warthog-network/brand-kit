@@ -55,65 +55,27 @@ Our colours are made primarily for **electronic displays** (presentations, web, 
 
 Visual order from the 3×3 grid on page 10 of the PDF:
 
-<table>
-<tr><th>Swatch</th><th>Hex</th><th>Role</th></tr>
-<tr><td bgcolor="#FDB913"></td><td><code>#FDB913</code></td><td>Brand yellow — primary</td></tr>
-<tr><td bgcolor="#F25C05"></td><td><code>#F25C05</code></td><td>Red-orange</td></tr>
-<tr><td bgcolor="#000000"></td><td><code>#000000</code></td><td>Black</td></tr>
-<tr><td bgcolor="#E79300"></td><td><code>#E79300</code></td><td>Orange</td></tr>
-<tr><td bgcolor="#FFFFFF" style="border:1px solid #ccc;"></td><td><code>#FFFFFF</code></td><td>White</td></tr>
-<tr><td bgcolor="#E9E9E9"></td><td><code>#E9E9E9</code></td><td>Light gray — <strong>backgrounds only</strong>, not for marks</td></tr>
-<tr><td bgcolor="#F20544"></td><td><code>#F20544</code></td><td>Red / pink</td></tr>
-<tr><td bgcolor="#035AA6"></td><td><code>#035AA6</code></td><td>Blue — supporting illustration only</td></tr>
-<tr><td bgcolor="#033298"></td><td><code>#033298</code></td><td>Deep blue — supporting illustration only</td></tr>
-</table>
+| Hex | Role |
+|-----|------|
+| <code>#FDB913</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #FDB913; height: 10px; width: 10px;"></span> | Brand yellow — primary |
+| <code>#F25C05</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #F25C05; height: 10px; width: 10px;"></span> | Red-orange |
+| <code>#000000</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #000000; height: 10px; width: 10px;"></span> | Black |
+| <code>#E79300</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #E79300; height: 10px; width: 10px;"></span> | Orange |
+| <code>#FFFFFF</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #FFFFFF; height: 10px; width: 10px;"></span> | White |
+| <code>#E9E9E9</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #E9E9E9; height: 10px; width: 10px;"></span> | Light gray — <strong>backgrounds only</strong>, not for marks |
+| <code>#F20544</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #F20544; height: 10px; width: 10px;"></span> | Red / pink |
+| <code>#035AA6</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #035AA6; height: 10px; width: 10px;"></span> | Blue — supporting illustration only |
+| <code>#033298</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #033298; height: 10px; width: 10px;"></span> | Deep blue — supporting illustration only |
 
 ### Gradients
 
-All gradients transition to brand yellow `#FDB913`. Swatches below simulate the transition (GitHub strips CSS gradients — each cell shows one color stop):
+All gradients transition to brand yellow `#FDB913`:
 
-<table>
-<tr><th>Swatch (simulated)</th><th>Colors</th></tr>
-<tr>
-<td style="padding:0;">
-<table cellpadding="0" cellspacing="0" border="0" height="24"><tr>
-<td bgcolor="#F25C05"></td>
-<td bgcolor="#F25C05" width="4"></td>
-<td bgcolor="#F25C05" width="4"></td>
-<td bgcolor="#FDB913" width="4"></td>
-<td bgcolor="#FDB913" width="4"></td>
-<td bgcolor="#FDB913"></td>
-</tr></table>
-</td>
-<td><code>#F25C05</code> → <code>#FDB913</code></td>
-</tr>
-<tr>
-<td style="padding:0;">
-<table cellpadding="0" cellspacing="0" border="0" height="24"><tr>
-<td bgcolor="#E79300"></td>
-<td bgcolor="#E79300" width="4"></td>
-<td bgcolor="#E79300" width="4"></td>
-<td bgcolor="#FDB913" width="4"></td>
-<td bgcolor="#FDB913" width="4"></td>
-<td bgcolor="#FDB913"></td>
-</tr></table>
-</td>
-<td><code>#E79300</code> → <code>#FDB913</code></td>
-</tr>
-<tr>
-<td style="padding:0;">
-<table cellpadding="0" cellspacing="0" border="0" height="24"><tr>
-<td bgcolor="#F20544"></td>
-<td bgcolor="#F20544" width="4"></td>
-<td bgcolor="#F20544" width="4"></td>
-<td bgcolor="#FDB913" width="4"></td>
-<td bgcolor="#FDB913" width="4"></td>
-<td bgcolor="#FDB913"></td>
-</tr></table>
-</td>
-<td><code>#F20544</code> → <code>#FDB913</code></td>
-</tr>
-</table>
+| Gradient |
+|----------|
+| <code>#F25C05</code> → <code>#FDB913</code> <span class="d-inline-block border rounded-1 color-border-subtle" style="background: linear-gradient(to right, #F25C05, #FDB913); height: 10px; width: 60px;"></span> |
+| <code>#E79300</code> → <code>#FDB913</code> <span class="d-inline-block border rounded-1 color-border-subtle" style="background: linear-gradient(to right, #E79300, #FDB913); height: 10px; width: 60px;"></span> |
+| <code>#F20544</code> → <code>#FDB913</code> <span class="d-inline-block border rounded-1 color-border-subtle" style="background: linear-gradient(to right, #F20544, #FDB913); height: 10px; width: 60px;"></span> |
 
 ## Logo Restrictions
 
