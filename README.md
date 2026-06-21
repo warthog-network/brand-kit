@@ -15,7 +15,7 @@ The culture & voice are the compasses that guide our creativity to build our bra
 
 ## Logo
 
-The following logo variants are available as PNG and SVG types in the `Logo` directory. The primary theme to be used is "Yellow".
+The following logo variants are available as PNG and SVG types in the [`logo` directory](logo). The primary theme to be used is "Yellow".
 
 | Variant | Yellow | Black | BW | Negative | Negative Yellow |
 |---------|--------|-------|-----|----------|-----------------|
@@ -25,7 +25,7 @@ The following logo variants are available as PNG and SVG types in the `Logo` dir
 | **Stacked** | <a href="logo/Stacked%20Yellow.png"><img src="logo/Stacked%20Yellow.png" alt="Stacked Yellow" width="100"></a> | <a href="logo/Stacked%20Black.png"><img src="logo/Stacked%20Black.png" alt="Stacked Black" width="100"></a> | <a href="logo/Stacked%20BW.png"><img src="logo/Stacked%20BW.png" alt="Stacked BW" width="100"></a> | <a href="logo/Stacked%20Negative.png"><img src="logo/Stacked%20Negative.png" alt="Stacked Negative" width="100"></a> | <a href="logo/Stacked%20Negative%20Yellow.png"><img src="logo/Stacked%20Negative%20Yellow.png" alt="Stacked Negative Yellow" width="100"></a> |
 | **Ticker** | <a href="logo/Ticker%20Yellow.png"><img src="logo/Ticker%20Yellow.png" alt="Ticker Yellow" width="100"></a> | <a href="logo/Ticker%20Black.png"><img src="logo/Ticker%20Black.png" alt="Ticker Black" width="100"></a> | <a href="logo/Ticker%20BW.png"><img src="logo/Ticker%20BW.png" alt="Ticker BW" width="100"></a> | — | — |
 
-For Discord we use `logo/DISCORD.png` as banner server.
+For Discord we use [`logo/DISCORD.png`](logo/DISCORD.png) as server banner.
 
 ## Fonts
 
@@ -35,6 +35,7 @@ For Discord we use `logo/DISCORD.png` as banner server.
 |-----|--------|
 | Titles | Montserrat Bold |
 | Text blocks | Montserrat (Family) |
+![Font demo](fonts/render.png)
 
 The full family is shipped in `fonts/Montserrat.zip`. Unzip before referencing weights in design files.
 
