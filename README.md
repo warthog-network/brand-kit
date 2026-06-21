@@ -57,15 +57,15 @@ Visual order from the 3×3 grid on page 10 of the PDF:
 
 | Hex | Role |
 |-----|------|
-| <code>#FDB913</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #FDB913; height: 10px; width: 10px;"></span> | Brand yellow — primary |
-| <code>#F25C05</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #F25C05; height: 10px; width: 10px;"></span> | Red-orange |
-| <code>#000000</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #000000; height: 10px; width: 10px;"></span> | Black |
-| <code>#E79300</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #E79300; height: 10px; width: 10px;"></span> | Orange |
-| <code>#FFFFFF</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #FFFFFF; height: 10px; width: 10px;"></span> | White |
-| <code>#E9E9E9</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #E9E9E9; height: 10px; width: 10px;"></span> | Light gray — <strong>backgrounds only</strong>, not for marks |
-| <code>#F20544</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #F20544; height: 10px; width: 10px;"></span> | Red / pink |
-| <code>#035AA6</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #035AA6; height: 10px; width: 10px;"></span> | Blue — supporting illustration only |
-| <code>#033298</code> <span class="d-inline-block border circle color-border-subtle" style="background-color: #033298; height: 10px; width: 10px;"></span> | Deep blue — supporting illustration only |
+| <img src="colors/FDB913.svg" width="16" height="16" style="vertical-align:middle;" alt="#FDB913"> <code>#FDB913</code> | Brand yellow — primary |
+| <img src="colors/F25C05.svg" width="16" height="16" style="vertical-align:middle;" alt="#F25C05"> <code>#F25C05</code> | Red-orange |
+| <img src="colors/000000.svg" width="16" height="16" style="vertical-align:middle;" alt="#000000"> <code>#000000</code> | Black |
+| <img src="colors/E79300.svg" width="16" height="16" style="vertical-align:middle;" alt="#E79300"> <code>#E79300</code> | Orange |
+| <img src="colors/FFFFFF.svg" width="16" height="16" style="vertical-align:middle;" alt="#FFFFFF"> <code>#FFFFFF</code> | White |
+| <img src="colors/E9E9E9.svg" width="16" height="16" style="vertical-align:middle;" alt="#E9E9E9"> <code>#E9E9E9</code> | Light gray — <strong>backgrounds only</strong>, not for marks |
+| <img src="colors/F20544.svg" width="16" height="16" style="vertical-align:middle;" alt="#F20544"> <code>#F20544</code> | Red / pink |
+| <img src="colors/035AA6.svg" width="16" height="16" style="vertical-align:middle;" alt="#035AA6"> <code>#035AA6</code> | Blue — supporting illustration only |
+| <img src="colors/033298.svg" width="16" height="16" style="vertical-align:middle;" alt="#033298"> <code>#033298</code> | Deep blue — supporting illustration only |
 
 ### Gradients
 
@@ -73,9 +73,9 @@ All gradients transition to brand yellow `#FDB913`:
 
 | Gradient |
 |----------|
-| <code>#F25C05</code> → <code>#FDB913</code> <span class="d-inline-block border rounded-1 color-border-subtle" style="background: linear-gradient(to right, #F25C05, #FDB913); height: 10px; width: 60px;"></span> |
-| <code>#E79300</code> → <code>#FDB913</code> <span class="d-inline-block border rounded-1 color-border-subtle" style="background: linear-gradient(to right, #E79300, #FDB913); height: 10px; width: 60px;"></span> |
-| <code>#F20544</code> → <code>#FDB913</code> <span class="d-inline-block border rounded-1 color-border-subtle" style="background: linear-gradient(to right, #F20544, #FDB913); height: 10px; width: 60px;"></span> |
+| <img src="colors/F25C05-FDB913.svg" width="80" height="16" style="vertical-align:middle;" alt="#F25C05 → #FDB913"> <code>#F25C05</code> → <code>#FDB913</code> |
+| <img src="colors/E79300-FDB913.svg" width="80" height="16" style="vertical-align:middle;" alt="#E79300 → #FDB913"> <code>#E79300</code> → <code>#FDB913</code> |
+| <img src="colors/F20544-FDB913.svg" width="80" height="16" style="vertical-align:middle;" alt="#F20544 → #FDB913"> <code>#F20544</code> → <code>#FDB913</code> |
 
 ## Logo Restrictions
 
