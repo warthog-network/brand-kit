@@ -6,6 +6,7 @@ Brand kit repository for Warthog Network. Asset-only — no source code, build, 
 
 - `fonts/Montserrat.zip` — official brand font (extract to use).
 - `logo/` — all logo assets (SVG + PNG) in a single flat directory, plus `DISCORD.png` (pre-sized Discord banner). Use SVG for any digital/print work; use PNG only when SVG is not an option.
+- `colors/` — SVG swatches for visual representation in `README.md` only. Not important for AGENTS — the hex values are already documented in the Color palette section below.
 - `README.md` — visual catalogue of every variant × color-scheme combination, with clickable thumbnails.
 - `Guideline/WT_Guidelines.md` and `Guideline/WT_Guidelines.pdf` — **removed**. The full brand spec is now in `README.md` (color palette, logo variants, restrictions, fonts). The PDF is no longer shipped; if you need the historical PDF, regenerate it from `Warthog_2024.ai` (which is also no longer in this repo — see "Conventions" below).
 - `Warthog_2024.ai` / `Warthog_2024.pdf` — **removed**. The editable Illustrator source and its flattened preview are not tracked in this repo anymore. Recreate them from the README catalogue if needed.

@@ -12,12 +12,10 @@ The culture & voice are the compasses that guide our creativity to build our bra
 | **Voice** | Approachable, Knowledgeable, Trusting |
 | **Look** | Modern, Bold, Inviting |
 
----
 
 ## Logo
 
 The following logo variants are available as PNG and SVG types in the `Logo` directory. The primary theme to be used is "Yellow".
-<div style="background-color:#f5f5f5;padding:1em;border-radius:6px;">
 
 | Variant | Yellow | Black | BW | Negative | Negative Yellow |
 |---------|--------|-------|-----|----------|-----------------|
@@ -27,13 +25,8 @@ The following logo variants are available as PNG and SVG types in the `Logo` dir
 | **Stacked** | <a href="logo/Stacked%20Yellow.png"><img src="logo/Stacked%20Yellow.png" alt="Stacked Yellow" width="100"></a> | <a href="logo/Stacked%20Black.png"><img src="logo/Stacked%20Black.png" alt="Stacked Black" width="100"></a> | <a href="logo/Stacked%20BW.png"><img src="logo/Stacked%20BW.png" alt="Stacked BW" width="100"></a> | <a href="logo/Stacked%20Negative.png"><img src="logo/Stacked%20Negative.png" alt="Stacked Negative" width="100"></a> | <a href="logo/Stacked%20Negative%20Yellow.png"><img src="logo/Stacked%20Negative%20Yellow.png" alt="Stacked Negative Yellow" width="100"></a> |
 | **Ticker** | <a href="logo/Ticker%20Yellow.png"><img src="logo/Ticker%20Yellow.png" alt="Ticker Yellow" width="100"></a> | <a href="logo/Ticker%20Black.png"><img src="logo/Ticker%20Black.png" alt="Ticker Black" width="100"></a> | <a href="logo/Ticker%20BW.png"><img src="logo/Ticker%20BW.png" alt="Ticker BW" width="100"></a> | — | — |
 
-</div>
+For Discord we use `logo/DISCORD.png` as banner server.
 
-`For Discord we use logo/DISCORD.png` as banner server. 
-
----
- 
----
 ## Fonts
 
 **Montserrat only.**
@@ -45,7 +38,6 @@ The following logo variants are available as PNG and SVG types in the `Logo` dir
 
 The full family is shipped in `fonts/Montserrat.zip`. Unzip before referencing weights in design files.
 
----
 
 ## Colours
 
@@ -91,6 +83,5 @@ When placing the logo on a coloured or photographic surface, follow these rules:
 - If a colour background is inevitable, **use the maximum contrast** — the black "Negative" variants.
 
 
----
 
 *Crafted by BalkyBot. V01.A · 2023·2024.*
