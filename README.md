@@ -35,6 +35,7 @@ For Discord we use [`logo/DISCORD.png`](logo/DISCORD.png) as server banner.
 |-----|--------|
 | Titles | Montserrat Bold |
 | Text blocks | Montserrat (Family) |
+
 ![Font demo](fonts/render.png)
 
 The full family is shipped in `fonts/Montserrat.zip`. Unzip before referencing weights in design files.
