@@ -55,26 +55,65 @@ Our colours are made primarily for **electronic displays** (presentations, web, 
 
 Visual order from the 3×3 grid on page 10 of the PDF:
 
-| Hex | Role |
-|-----|------|
-| <span style="display:inline-block;width:1em;height:1em;background:#FDB913;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #FDB913"></span> `#FDB913` | Brand yellow — primary |
-| <span style="display:inline-block;width:1em;height:1em;background:#F25C05;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #F25C05"></span> `#F25C05` | Red-orange |
-| <span style="display:inline-block;width:1em;height:1em;background:#000000;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #000000"></span> `#000000` | Black |
-| <span style="display:inline-block;width:1em;height:1em;background:#E79300;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #E79300"></span> `#E79300` | Orange |
-| <span style="display:inline-block;width:1em;height:1em;background:#FFFFFF;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #FFFFFF"></span> `#FFFFFF` | White |
-| <span style="display:inline-block;width:1em;height:1em;background:#E9E9E9;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #E9E9E9"></span> `#E9E9E9` | Light gray — **backgrounds only**, not for marks |
-| <span style="display:inline-block;width:1em;height:1em;background:#F20544;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #F20544"></span> `#F20544` | Red / pink |
-| <span style="display:inline-block;width:1em;height:1em;background:#035AA6;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #035AA6"></span> `#035AA6` | Blue — supporting illustration only |
-| <span style="display:inline-block;width:1em;height:1em;background:#033298;vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Color sample #033298"></span> `#033298` | Deep blue — supporting illustration only |
-
+<table>
+<tr><th>Swatch</th><th>Hex</th><th>Role</th></tr>
+<tr><td bgcolor="#FDB913"></td><td><code>#FDB913</code></td><td>Brand yellow — primary</td></tr>
+<tr><td bgcolor="#F25C05"></td><td><code>#F25C05</code></td><td>Red-orange</td></tr>
+<tr><td bgcolor="#000000"></td><td><code>#000000</code></td><td>Black</td></tr>
+<tr><td bgcolor="#E79300"></td><td><code>#E79300</code></td><td>Orange</td></tr>
+<tr><td bgcolor="#FFFFFF" style="border:1px solid #ccc;"></td><td><code>#FFFFFF</code></td><td>White</td></tr>
+<tr><td bgcolor="#E9E9E9"></td><td><code>#E9E9E9</code></td><td>Light gray — <strong>backgrounds only</strong>, not for marks</td></tr>
+<tr><td bgcolor="#F20544"></td><td><code>#F20544</code></td><td>Red / pink</td></tr>
+<tr><td bgcolor="#035AA6"></td><td><code>#035AA6</code></td><td>Blue — supporting illustration only</td></tr>
+<tr><td bgcolor="#033298"></td><td><code>#033298</code></td><td>Deep blue — supporting illustration only</td></tr>
+</table>
 
 ### Gradients
 
-| Hex |
-|-----|
-| <span style="display:inline-block;width:6em;height:1em;background:linear-gradient(to right,#F25C05,#FDB913);vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Gradient from #F25C05 to #FDB913"></span> `#F25C05` → `#FDB913` |
-| <span style="display:inline-block;width:6em;height:1em;background:linear-gradient(to right,#E79300,#FDB913);vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Gradient from #E79300 to #FDB913"></span> `#E79300` → `#FDB913` |
-| <span style="display:inline-block;width:6em;height:1em;background:linear-gradient(to right,#F20544,#FDB913);vertical-align:middle;border:1px solid rgba(0,0,0,0.25);border-radius:2px;" aria-label="Gradient from #F20544 to #FDB913"></span> `#F20544` → `#FDB913` |
+All gradients transition to brand yellow `#FDB913`. Swatches below simulate the transition (GitHub strips CSS gradients — each cell shows one color stop):
+
+<table>
+<tr><th>Swatch (simulated)</th><th>Colors</th></tr>
+<tr>
+<td style="padding:0;">
+<table cellpadding="0" cellspacing="0" border="0" height="24"><tr>
+<td bgcolor="#F25C05"></td>
+<td bgcolor="#F25C05" width="4"></td>
+<td bgcolor="#F25C05" width="4"></td>
+<td bgcolor="#FDB913" width="4"></td>
+<td bgcolor="#FDB913" width="4"></td>
+<td bgcolor="#FDB913"></td>
+</tr></table>
+</td>
+<td><code>#F25C05</code> → <code>#FDB913</code></td>
+</tr>
+<tr>
+<td style="padding:0;">
+<table cellpadding="0" cellspacing="0" border="0" height="24"><tr>
+<td bgcolor="#E79300"></td>
+<td bgcolor="#E79300" width="4"></td>
+<td bgcolor="#E79300" width="4"></td>
+<td bgcolor="#FDB913" width="4"></td>
+<td bgcolor="#FDB913" width="4"></td>
+<td bgcolor="#FDB913"></td>
+</tr></table>
+</td>
+<td><code>#E79300</code> → <code>#FDB913</code></td>
+</tr>
+<tr>
+<td style="padding:0;">
+<table cellpadding="0" cellspacing="0" border="0" height="24"><tr>
+<td bgcolor="#F20544"></td>
+<td bgcolor="#F20544" width="4"></td>
+<td bgcolor="#F20544" width="4"></td>
+<td bgcolor="#FDB913" width="4"></td>
+<td bgcolor="#FDB913" width="4"></td>
+<td bgcolor="#FDB913"></td>
+</tr></table>
+</td>
+<td><code>#F20544</code> → <code>#FDB913</code></td>
+</tr>
+</table>
 
 ## Logo Restrictions
 
