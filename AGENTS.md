@@ -4,12 +4,10 @@ Brand kit repository for Warthog Network. Asset-only — no source code, build, 
 
 ## Contents
 
-- `fonts/Montserrat.zip` — official brand font (extract to use).
-- `logo/` — all logo assets (SVG + PNG) in a single flat directory, plus `DISCORD.png` (pre-sized Discord banner). Use SVG for any digital/print work; use PNG only when SVG is not an option.
+- `fonts/Montserrat.zip` — official brand font (extract to use). `fonts/render.png` is a preview render of the family.
+- `logo/` — all logo assets as flat files. Includes every `<Variant> <ColorScheme>.{svg,png}` pair, `DISCORD.png` (pre-sized Discord banner), and `Warthog_2024.ai` / `Warthog_2024.pdf` (the editable Illustrator source and its flattened preview). Use SVG for any digital/print work; use PNG only when SVG is not an option.
 - `colors/` — SVG swatches for visual representation in `README.md` only. Not important for AGENTS — the hex values are already documented in the Color palette section below.
-- `README.md` — visual catalogue of every variant × color-scheme combination, with clickable thumbnails.
-- `Guideline/WT_Guidelines.md` and `Guideline/WT_Guidelines.pdf` — **removed**. The full brand spec is now in `README.md` (color palette, logo variants, restrictions, fonts). The PDF is no longer shipped; if you need the historical PDF, regenerate it from `Warthog_2024.ai` (which is also no longer in this repo — see "Conventions" below).
-- `Warthog_2024.ai` / `Warthog_2024.pdf` — **removed**. The editable Illustrator source and its flattened preview are not tracked in this repo anymore. Recreate them from the README catalogue if needed.
+- `README.md` — visual catalogue of every variant × color-scheme combination, with clickable thumbnails, the primary palette, gradients, and logo restrictions.
 
 ## Logo directory layout
 
@@ -88,10 +86,10 @@ Montserrat only (provided in `fonts/Montserrat.zip`). Unzip before referencing w
 - **Filename pattern:** `<Variant> <ColorScheme>.<ext>` — note the **single space** between variant and color scheme, and lowercase `.png` / `.svg` extension. No `@4x` suffix, no subfolders.
 - **Variant + scheme matching:** match the available-on column above. If you need a missing combination (e.g. `Ticker Negative`), don't invent one — request it.
 - **New variants or color schemes** should follow the existing naming, use only the primary palette colors, and ship as both SVG and PNG.
-- **Editing the master logo:** this repo no longer tracks `Warthog_2024.ai`. The README is the visual reference; if a new derivative is needed, recreate the master file outside this repo, then re-export the SVG and PNG and place them in `logo/`.
-- **Discord banner:** `logo/DISCORD.png` is pre-sized. For higher fidelity, recreate outside this repo and overwrite it.
+- **Editing the master logo:** `logo/Warthog_2024.ai` is the editable Illustrator source. Edit it, then re-export the SVG and PNG and place them in `logo/` alongside the existing variants. The README is the visual reference for what variants exist.
+- **Discord banner:** `logo/DISCORD.png` is pre-sized. For higher fidelity, edit `logo/Warthog_2024.ai` and export at the target dimensions.
 - **Branch:** `master`. No CI, no pre-commit hooks, no formatter.
 
 ## Discord banner
 
-`logo/DISCORD.png` is sized for Discord server banners; do not upscale it. For higher fidelity, recreate the master logo and export at the target dimensions.
+`logo/DISCORD.png` is sized for Discord server banners; do not upscale it. For higher fidelity, edit `logo/Warthog_2024.ai` and export at the target dimensions.
